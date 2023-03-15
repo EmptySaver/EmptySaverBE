@@ -7,6 +7,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.DocumentReference;
+
+import java.util.List;
 
 @Document(collection = "time_table")
 @NoArgsConstructor
@@ -21,4 +24,6 @@ public class Time_Table {
 
     private String gen_member_id;
 
+    @DocumentReference(collection = "schedule")
+    private List<Schedule> schedule_list;
 }
