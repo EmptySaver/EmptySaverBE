@@ -24,6 +24,8 @@ public class Time_Table {
 
     private String gen_member_id;
 
-    @DocumentReference(collection = "schedule")
+    private String acronym;
+
+    @DocumentReference(lazy = true)//, collection = "schedule")
     private List<Schedule> schedule_list;
 }

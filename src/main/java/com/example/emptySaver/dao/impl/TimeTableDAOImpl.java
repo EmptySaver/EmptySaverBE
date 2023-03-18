@@ -9,7 +9,10 @@ import com.mongodb.client.result.UpdateResult;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.converter.Converter;
+import org.springframework.data.convert.WritingConverter;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.mapping.DocumentPointer;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
@@ -39,15 +42,30 @@ public class TimeTableDAOImpl implements TimeTableDAO {
     public void addScheduleInTimeTable(String timeTableId,Schedule schedule) {
         Schedule savedSchedule = scheduleRepository.save(schedule);
 
-        UpdateResult updateResult = template.update(Time_Table.class)
+        UpdateResult updateResult2 = template.update(Schedule.class)
+                .matching(where("id").is(savedSchedule.getId()))
+                .apply(new Update().set("acronym", timeTableId))
+                .first();
+
+        UpdateResult updateResult1 = template.update(Time_Table.class)
                 .matching(where("id").is(timeTableId))
                 .apply(new Update().push("schedule_list", savedSchedule))
                 .first();
 
-        if(updateResult.getModifiedCount() == 0){ //write 가 실패한 경우
-            //throw new Exception();
+
+        if(updateResult2.getModifiedCount() == 0){ //write 가 실패한 경우
+            System.out.println("not inserted");
         }
 
         log.info("addScheduleInTimeTable timeTableId={}", timeTableId);
+    }
+}
+
+@WritingConverter
+class ReferenceConverter implements Converter<Time_Table, DocumentPointer<String>> {
+
+    @Override
+    public DocumentPointer<String> convert(Time_Table source) {
+        return () -> source.getId();
     }
 }

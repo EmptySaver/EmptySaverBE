@@ -39,7 +39,7 @@ class TimeTableRepositoryTest {
     @Test
     void saveWithSchedule(){
         //given
-        Time_Table timeTableEntity = Time_Table.builder().title("흘러넘처").build();
+        Time_Table timeTableEntity = Time_Table.builder().id("added").title("흘러넘처").build();
         Schedule scheduleEntity = Schedule.builder().name("헬스 ㄱ").body("상체하는 날").build();
 
         //when
@@ -52,6 +52,8 @@ class TimeTableRepositoryTest {
         foundTable = repository.findById(savedTimeTable.getId()).get();
         //System.out.println(foundTable);
         assertThat(foundTable.getSchedule_list().size()).isEqualTo(1);
-        assertThat(foundTable.getSchedule_list().get(0).getName()).isEqualTo(scheduleEntity.getName());
+
+        assertThat(foundTable.getSchedule_list().get(0).getId()).isEqualTo(scheduleEntity.getId());
+        System.out.println(foundTable.getSchedule_list().get(0).getTimeTable().getTitle());
     }
 }
