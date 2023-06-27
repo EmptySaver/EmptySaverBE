@@ -45,10 +45,7 @@ public enum BaseResponseStatus {
     INVALID_NOTIFICATION_ID(false, 2502,"유효하지 않은 알림 ID 입니다"),
     NOT_AVAILABLE_SCHEDULE_FORM(false, 2503,"유효하지 않은 스케줄 형식을 저장하려 합니다."),
     TIME_IS_OVERLAP(false, 2504,"이미 저장된 스케줄과 겹칩니다."),
-    /**
-     * 3000 : Response 오류
-     */
-    // Common
+
     RESPONSE_ERROR(false, 3000, "값을 불러오는데 실패하였습니다."),
     DUPLICATE_FRIEND_REQUEST(false, 3001, "중복된 친구 요청 입니다."),
     FAILED_TO_SEND_NOTIFICATION(false, 3010, "알림 전송에 실패했습니다."),
