@@ -19,20 +19,20 @@
 
 <br> <br>
 
-<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5f0ad446-74ef-4443-8f26-cffd7f36271f.png width="300" height="700"/>
+<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5f0ad446-74ef-4443-8f26-cffd7f36271f.png width="300" height="600"/>
 
 <br> <br>
 
-<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/aede6c34-c68b-40e6-9179-d22241f025b4.png width="300" height="700"/>
+<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/aede6c34-c68b-40e6-9179-d22241f025b4.png width="300" height="600"/>
 
 <br> <br>
 
-<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/7ddad591-7ef8-4fd8-8907-e4b6d6e05bd6.png width="300" height="700"/>
+<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/7ddad591-7ef8-4fd8-8907-e4b6d6e05bd6.png width="300" height="600"/>
 
 <br> <br>
 
-<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5e10b22f-72a4-455f-bf76-ae84b6c0de08.png width="300" height="700"/>
+<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5e10b22f-72a4-455f-bf76-ae84b6c0de08.png width="300" height="600"/>
 
 <br> <br>
 
-<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/33f96796-c97b-487f-b7cf-ffd0150208a1.png width="300" height="700"/>
+<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/33f96796-c97b-487f-b7cf-ffd0150208a1.png width="300" height="600"/>
