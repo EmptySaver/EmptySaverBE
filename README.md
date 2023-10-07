@@ -15,7 +15,7 @@
 ### 스크린샷
 <br>
 
-![Screenshot_20230614-212015](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/aa2f2678-0ace-4123-8ade-9994e1f05041){: width="300" height="500"}
+<img src=https://github.com/EmptySaver/EmptySaverBE/assets/43613584/aa2f2678-0ace-4123-8ade-9994e1f05041.png width="300" height="500"/>
 <br>
 
 ![Screenshot_20230614-211054](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5f0ad446-74ef-4443-8f26-cffd7f36271f){: width="300" height="500"}
