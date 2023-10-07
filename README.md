@@ -1,4 +1,4 @@
-# 공강구조대 (UOS 캡스톤 프로젝트)
+![Screenshot_20230614-211054](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/0c237a62-5448-40f3-a800-0691e4e65cf3)# 공강구조대 (UOS 캡스톤 프로젝트)
 
 공강구조대는 시립대학교 구성원 내의 시간표 기반 그룹핑 서비스입니다.
 
@@ -12,20 +12,22 @@
 <br>
 
 ---
-
-![image](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/44828b1b-253b-4a5c-8c73-94ef6d9b826e)
+### 스크린샷
 <br>
 
-![image](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/1068e6de-25fe-48dd-9ae7-a1855627090f)
+![Screenshot_20230614-212015](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/aa2f2678-0ace-4123-8ade-9994e1f05041)
 <br>
 
-![image](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/bd96c8f0-c76f-444e-af9b-768f71e6bc32)
+![Screenshot_20230614-211054](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5f0ad446-74ef-4443-8f26-cffd7f36271f)
 <br>
 
-![image](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/33288cfc-fe0f-42c6-941f-f83b6f378b80)
+![KakaoTalk_20230613_225629934_22](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/aede6c34-c68b-40e6-9179-d22241f025b4)
 <br>
 
-![image](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/829a2465-eb15-466f-916a-94075a5b3029)
+![KakaoTalk_20230613_225629934_06](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/7ddad591-7ef8-4fd8-8907-e4b6d6e05bd6)
 <br>
 
-![image](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/39e62498-5f84-433d-935a-6ccae8826b07)
+![KakaoTalk_20230613_225629934_10](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/5e10b22f-72a4-455f-bf76-ae84b6c0de08)
+<br>
+
+![KakaoTalk_20230613_225629934_04](https://github.com/EmptySaver/EmptySaverBE/assets/43613584/33f96796-c97b-487f-b7cf-ffd0150208a1)
